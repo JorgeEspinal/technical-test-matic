@@ -1,0 +1,55 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 8rem;
+}
+
+.nav-bar__logo {
+  transform: scale(1.5);
+}
+
+.nav__options {
+  height: 100%;
+}
+
+.nav__items {
+  display: flex;
+  gap: 3rem;
+
+  list-style: none;
+  padding-top: 3rem;
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 0.7rem;
+
+  height: 100%;
+}
+
+.nav__item {
+}
+
+.nav__link {
+}
+
+.nav__link,
+.nav__link:link,
+.nav__link:visited {
+  text-decoration: none;
+  color: #99989d;
+}
+
+.nav__link:hover {
+  color: #2d314d;
+}
+
+.nav__item--active {
+  border-bottom: 0.5rem solid;
+  border-image-slice: 1;
+  border-image-source: var(--color-primary);
+}

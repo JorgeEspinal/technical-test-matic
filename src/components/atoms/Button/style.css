@@ -1,0 +1,27 @@
+.button {
+  background: linear-gradient(90deg, #31cf70 4.85%, #2cb9cb 100%);
+  border-radius: 8.9rem;
+  border: none;
+
+  position: relative;
+  width: 16.5rem;
+  height: 4.5rem;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #84e1a7 4.85%, #81d6db 100%);
+  cursor: pointer;
+}
+
+.button-text {
+  /* position: absolute;
+  left: 50%;
+  top: 50%; */
+
+  font-family: 'Public Sans';
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 0.7rem;
+}
