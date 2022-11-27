@@ -13,6 +13,7 @@ const HeroSection = () => {
         <Paragraph text="Take your financial life online. Your Easybank accountwill be a one-stop-shop for spending, saving. budgeting, nvesting, and much more." />
         <Button type="button" text="Request Invite" />
       </div>
+
       <div className="hero-img">
         <img className="hero-img--svg" src={shapeSVG} alt="Shape" />
         <img className="hero-img--mockups" src={mockupsImg} alt="Mockups app" />

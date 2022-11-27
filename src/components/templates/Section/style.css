@@ -1,0 +1,11 @@
+.section {
+  padding-left: 16.2rem;
+}
+
+.section--main {
+  background-color: #fafafa;
+}
+
+.section--sub {
+  background-color: #f4f5f7;
+}

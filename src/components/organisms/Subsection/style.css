@@ -1,0 +1,23 @@
+.subsection {
+  padding-top: 9.6rem;
+  padding-right: 15.6rem;
+  width: 100%;
+}
+
+.subsection-title {
+  margin-bottom: 2rem;
+}
+
+.subsection-paragraph {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  width: 59.4rem;
+  margin-bottom: 7.4rem;
+}
+
+.subsection-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 9.1rem;
+}

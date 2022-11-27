@@ -1,10 +1,12 @@
-import { ReactNode } from 'react';
 import './style.css';
 
 type Props = {
   text: string;
+  classCss?: string;
 };
 
-const Paragraph = ({ text }: Props) => <p className="paragraph">{text}</p>;
+const Paragraph = ({ text, classCss }: Props) => (
+  <p className={`paragraph ${classCss}`}>{text}</p>
+);
 
 export default Paragraph;

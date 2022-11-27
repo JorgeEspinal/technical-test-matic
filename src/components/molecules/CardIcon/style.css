@@ -1,0 +1,21 @@
+.cardIcon {
+  width: 27rem;
+  height: 28.3rem;
+
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.cardIcon h3 {
+  margin-top: 2.4rem;
+}
+
+.cardIcon p {
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  letter-spacing: -0.04em;
+}

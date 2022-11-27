@@ -1,0 +1,19 @@
+.icon {
+  position: relative;
+  width: 7.2rem;
+  height: 7.2rem;
+  background-image: var(--color-primary);
+}
+
+.icon-img {
+  width: 3.98rem;
+  height: 3.98rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon--circular {
+  border-radius: 50%;
+}

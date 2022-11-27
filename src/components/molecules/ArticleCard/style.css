@@ -1,0 +1,49 @@
+.cardArticle {
+  width: 26rem;
+  height: 39.9rem;
+  background: #ffffff;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.cardArticle-img {
+  width: 26rem;
+  height: 19.48rem;
+}
+
+.cardArticle-body {
+  padding-top: 3.42rem;
+  padding-left: 2.6rem;
+  padding-right: 3.2rem;
+  padding-bottom: 1.9rem;
+}
+
+.cardArticle-body-autor {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.02em;
+  color: #959499;
+
+  margin-bottom: 6rem;
+}
+
+.cardArticle-body-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.02em;
+  color: #2d314e;
+
+  margin-bottom: 4rem;
+}
+
+.cardArticle-body-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.02em;
+}
