@@ -1,0 +1,19 @@
+.logo {
+}
+
+.logo__bars {
+  margin-right: 0.06rem;
+}
+
+.logo__letter {
+  width: 13.9rem;
+  height: 2rem;
+}
+
+.logo__letter--light {
+  fill: #fff;
+}
+
+.logo__letter--dark {
+  fill: #2d314d;
+}

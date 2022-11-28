@@ -10,7 +10,7 @@ type Props = {
 const Button = ({ type, text, classCss }: Props) => {
   return (
     <button type={type} className={`button ${classCss}`}>
-      <span className="button-text">{text}</span>
+      <span className="button__text">{text}</span>
     </button>
   );
 };

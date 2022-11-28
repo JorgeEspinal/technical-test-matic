@@ -11,7 +11,7 @@ type Props = {
   class?: string;
 };
 
-const CardIcon = ({ iconUrl, iconAlt, title, paragraph }: Props) => (
+const IconCard = ({ iconUrl, iconAlt, title, paragraph }: Props) => (
   <div className="cardIcon">
     <IconShape src={iconUrl} alt={iconAlt} />
     <Title type="h3" text={title} />
@@ -19,8 +19,8 @@ const CardIcon = ({ iconUrl, iconAlt, title, paragraph }: Props) => (
   </div>
 );
 
-CardIcon.defaultProps = {
+IconCard.defaultProps = {
   class: '',
 };
 
-export default CardIcon;
+export default IconCard;

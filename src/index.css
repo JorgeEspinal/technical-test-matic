@@ -1,5 +1,6 @@
 :root {
   --color-primary: linear-gradient(90deg, #36cb6d 0%, #29b8c8 100%);
+  --color-primary-light: linear-gradient(90deg, #84e1a7 4.85%, #81d6db 100%);
 }
 
 *,

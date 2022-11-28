@@ -3,14 +3,14 @@ import './style.css';
 
 type Props = {
   children?: ReactNode;
-  shape?: 'Circular';
+  shape?: 'circular';
   src: string;
   alt: string;
 };
 
 const IconShape = ({ children, shape, src, alt }: Props) => (
-  <div className="icon icon--circular">
-    <img className="icon-img" src={src} alt={alt} />
+  <div className="icon__shape icon__shape--circular">
+    <img className="icon__shape-img" src={src} alt={alt} />
   </div>
 );
 

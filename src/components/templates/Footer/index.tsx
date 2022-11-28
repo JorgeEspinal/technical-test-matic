@@ -3,10 +3,13 @@ import './style.css';
 
 type Props = {
   children: ReactNode;
+  classCss?: string;
 };
 
-const Footer = ({ children }: Props) => (
-  <footer className="header">{children}</footer>
+const Footer = ({ children, classCss }: Props) => (
+  <footer className={`footer${classCss ? ' ' + classCss : ''}`}>
+    {children}
+  </footer>
 );
 
 export default Footer;

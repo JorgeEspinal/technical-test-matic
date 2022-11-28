@@ -1,0 +1,18 @@
+.icon:link,
+.icon:visited {
+  text-decoration: none;
+}
+
+.icon {
+  display: contents;
+  fill: #fff;
+}
+
+.icon:hover {
+  fill: #77bda3;
+}
+
+.icon__svg {
+  width: 2rem;
+  height: 2rem;
+}

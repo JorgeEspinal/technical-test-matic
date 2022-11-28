@@ -1,11 +1,11 @@
-.icon {
+.icon__shape {
   position: relative;
   width: 7.2rem;
   height: 7.2rem;
   background-image: var(--color-primary);
 }
 
-.icon-img {
+.icon__shape-img {
   width: 3.98rem;
   height: 3.98rem;
   position: absolute;
@@ -14,6 +14,6 @@
   transform: translate(-50%, -50%);
 }
 
-.icon--circular {
+.icon__shape--circular {
   border-radius: 50%;
 }

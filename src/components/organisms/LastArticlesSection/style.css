@@ -1,6 +1,29 @@
-.lastArticle {
+.last-article {
+  display: grid;
+  row-gap: 3.8rem;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto, auto;
+
+  padding-top: 7.9rem;
+  padding-right: 16.6rem;
+  padding-bottom: 8rem;
 }
 
-.lastArticle-cards {
+.last-article__title {
+  align-self: center;
+}
+
+.last-article__btn {
+  align-self: center;
+  justify-self: right;
+}
+
+.last-article__cards {
+  grid-column: 1 / 3;
+  grid-row: 2 / 2;
+
   display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  gap: 2.4rem;
 }

@@ -1,6 +1,6 @@
 import Paragraph from '../../atoms/Paragraph';
 import Title from '../../atoms/Title';
-import CardIcon from '../../molecules/CardIcon';
+import CardIcon from '../../molecules/IconCard';
 import Section from '../../templates/Section';
 import IconPhone from './../../../assets/icon1.svg';
 import IconMoney from './../../../assets/icon2.svg';

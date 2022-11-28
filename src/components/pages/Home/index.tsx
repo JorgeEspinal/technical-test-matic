@@ -1,5 +1,14 @@
+import HeroSection from '../../organisms/HeroSection';
+import LastArticlesSection from '../../organisms/LastArticlesSection';
+import Subsection from '../../organisms/Subsection';
 import './style.css';
 
-const Home = () => <div className="home"></div>;
+const Home = () => (
+  <>
+    <HeroSection />
+    <Subsection />
+    <LastArticlesSection />
+  </>
+);
 
 export default Home;

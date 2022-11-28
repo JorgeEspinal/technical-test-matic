@@ -17,10 +17,14 @@ const LastArticlesSection = () => {
   }, [dispatch]);
 
   return (
-    <Section type="Section" classCss="lastArticle">
-      <Title type="h2" text="Latest Articles" />
-      <Button type="button" text="+ Add New Article" />
-      <div className="lastArticle-cards">
+    <Section type="Section" classCss="last-article">
+      <Title type="h2" text="Latest Articles" classCss="last-article__title" />
+      <Button
+        type="button"
+        text="+ Add New Article"
+        classCss="last-article__btn"
+      />
+      <div className="last-article__cards">
         {articles.map((article, i) => {
           if (i < 4)
             return (

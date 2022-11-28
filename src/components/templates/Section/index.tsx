@@ -11,7 +11,7 @@ const Section = ({ children, type, classCss }: Props) => (
   <section
     className={`section ${
       type === 'Section' ? 'section--main' : 'section--sub'
-    } ${classCss}`}
+    }${classCss ? ' ' + classCss : ''}`}
   >
     {children}
   </section>

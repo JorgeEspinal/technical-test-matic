@@ -1,0 +1,14 @@
+.nav-footer__link,
+.nav-footer__link:link,
+.nav-footer__link:visited {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.nav-footer__link:hover {
+  color: #77bda3;
+}

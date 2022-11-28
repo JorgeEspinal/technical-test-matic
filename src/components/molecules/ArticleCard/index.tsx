@@ -10,12 +10,16 @@ type Props = {
 };
 
 const ArticleCard = ({ autor, title, content, urlImg }: Props) => (
-  <div className="cardArticle">
-    <img className="cardArticle-img" src={urlImg} alt={title} />
-    <div className="cardArticle-body">
-      <h4 className="cardArticle-body-autor">By {autor}</h4>
-      <Title classCss="cardArticle-body-title" type="h3" text={title} />
-      <Paragraph classCss="cardArticle-body-content" text={content} />
+  <div className="card-article">
+    <img className="card-article__img" src={urlImg} alt={title} />
+    <div className="card-article__body">
+      <h4 className="card-article__body-autor">By {autor}</h4>
+      <Title classCss="card-article__body-title" type="h3">
+        <a className="card-article__body-title__link" href="#">
+          {title}
+        </a>
+      </Title>
+      <Paragraph classCss="card-article__body-content" text={content} />
     </div>
   </div>
 );

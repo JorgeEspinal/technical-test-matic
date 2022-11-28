@@ -1,0 +1,11 @@
+.nav-footer {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 13.2rem;
+  row-gap: 1.6rem;
+}
+
+.nav-footer__item {
+  align-self: center;
+}

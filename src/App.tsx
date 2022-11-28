@@ -1,16 +1,15 @@
 import './App.css';
-import HeroSection from './components/organisms/HeroSection';
-import LastArticlesSection from './components/organisms/LastArticlesSection';
+import FooterSection from './components/organisms/FooterSection';
 import NavigationBar from './components/organisms/NavigationBar';
-import Subsection from './components/organisms/Subsection';
+
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <HeroSection />
-      <Subsection />
-      <LastArticlesSection />
+      <Outlet />
+      <FooterSection />
     </div>
   );
 }

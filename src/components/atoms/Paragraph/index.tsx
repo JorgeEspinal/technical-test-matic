@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Paragraph = ({ text, classCss }: Props) => (
-  <p className={`paragraph ${classCss}`}>{text}</p>
+  <p className={`paragraph${classCss ? ' ' + classCss : ''}`}>{text}</p>
 );
 
 export default Paragraph;
