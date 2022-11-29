@@ -1,0 +1,111 @@
+.table {
+  border: 0.1rem solid #e5e7eb;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1),
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.06);
+  border-radius: 0.8rem;
+}
+
+.table-head__global {
+  background-color: #f9fafb;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: left;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6b7280;
+
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 2.4rem;
+}
+
+.table-head__author {
+  width: 15.2rem;
+}
+
+.table-head__title {
+  width: 31.3rem;
+}
+
+.table-head__content {
+  width: 38.3rem;
+}
+.table-head__date {
+  width: 11.1rem;
+}
+
+.table-head__commands {
+  width: 13.1rem;
+}
+
+.table-data__global {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  height: 5.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 1.6rem 2.4rem;
+}
+
+.table-data__author {
+  color: #2d314e;
+  width: 15.2rem;
+}
+
+.table-data__title,
+.table-data__content {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #6b7280;
+}
+
+.table-data__title {
+  width: 31.3rem;
+}
+
+.table-data__content {
+  width: 38.3rem;
+}
+
+.table-data__date {
+  font-weight: 400;
+  color: #6b7280;
+  width: 11.1rem;
+  overflow: visible;
+}
+
+.table-data__commands {
+  width: 13.1rem;
+}
+
+.table tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+.table tr:nth-child(even) td {
+  background: #f4f5f7;
+}
+
+.table-data__command {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+
+  font-weight: 700;
+}
+
+.table-data__command--delete {
+  color: #ff8a8a;
+  cursor: pointer;
+}
+
+.table-data__command--edit {
+  color: #84e1a7;
+  cursor: pointer;
+}

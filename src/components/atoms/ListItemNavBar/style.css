@@ -1,0 +1,30 @@
+.item-navbar {
+}
+
+.item-navbar__link {
+}
+
+.item-navbar__link,
+.item-navbar__link:link,
+.item-navbar__link:visited {
+  text-decoration: none;
+  color: #99989d;
+}
+
+.item-navbar__link:hover {
+  color: #2d314d;
+}
+
+.item-navbar__link--active {
+  color: #2d314d !important;
+}
+
+.nav__item--active {
+  border-bottom: 0.5rem solid;
+  border-image-slice: 1;
+  border-image-source: var(--color-primary);
+}
+
+/* .nav__item--active .item-navbar__link {
+  color: #2d314d;
+} */

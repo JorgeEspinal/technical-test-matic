@@ -1,0 +1,33 @@
+.form-article {
+  width: 69.3rem;
+  height: 71rem;
+
+  padding-top: 4.2rem;
+  padding-left: 7.2rem;
+  padding-bottom: 3.2rem;
+  padding-right: 4.45rem;
+
+  background-color: #ffffff;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.06);
+  border-radius: 4.1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-article__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.form-article__control {
+}
+
+.form-article__commands {
+}
+
+.form-article__commands--button-save {
+  width: 57.6rem;
+}

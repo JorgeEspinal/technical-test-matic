@@ -17,7 +17,12 @@ const SocialIconsBar = ({ classCss }: Props) => {
   return (
     <div className={`social-icons-bar${classCss ? ' ' + classCss : ''}`}>
       {icons.map((icon, i) => (
-        <Icon ariaLabel={icon.ariaLabel} href={icon.href} icon={icon.icon} />
+        <Icon
+          key={`social-icon-${i}`}
+          ariaLabel={icon.ariaLabel}
+          href={icon.href}
+          icon={icon.icon}
+        />
       ))}
     </div>
   );

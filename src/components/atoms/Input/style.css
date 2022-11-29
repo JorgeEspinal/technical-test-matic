@@ -1,0 +1,24 @@
+.form-control__label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #2d314e;
+}
+
+.form-control__input {
+  width: 57.6rem;
+  height: 5rem;
+
+  background: #ffffff;
+
+  border: 1px solid #d1d5db;
+
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.6rem;
+}
+
+.form-control__input--textarea {
+  height: 33.3rem;
+  resize: none;
+}

@@ -14,12 +14,8 @@ type Props = {
 const FooterOptionsNav = ({ options, classCss }: Props) => (
   <ul className={`nav-footer${classCss ? ' ' + classCss : ''}`}>
     {options.map((option, i) => (
-      <li className="nav-footer__item">
-        <FooterOptionNav
-          key={`footer-opt${i}`}
-          href={option.href}
-          text={option.text}
-        />
+      <li className="nav-footer__item" key={`footer-opt${i}`}>
+        <FooterOptionNav href={option.href} text={option.text} />
       </li>
     ))}
   </ul>

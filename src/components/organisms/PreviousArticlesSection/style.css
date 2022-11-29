@@ -1,0 +1,20 @@
+.prev-article__section {
+  padding-right: 19rem;
+  padding-left: 16rem;
+  background-color: #f9f9f9;
+  padding-bottom: 11.4rem;
+}
+
+.prev-article__title {
+  padding-top: 6.4rem;
+  margin-bottom: 2rem;
+}
+
+.prev-article__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+
+  margin-bottom: 7.2rem;
+}

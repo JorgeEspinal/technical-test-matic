@@ -1,7 +1,8 @@
-import { ArticleType } from '../models/article-type';
+import { ArticleEditType, ArticleType } from '../models/article-type';
 
 export type ArticleStateType = {
   articles: ArticleType[];
+  articleEdit: ArticleEditType;
   loading: boolean;
   error: string | null;
 };

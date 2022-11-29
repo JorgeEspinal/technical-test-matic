@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ArticleType } from '../models/article-type';
+import { ArticleEditType, ArticleType } from '../models/article-type';
 import { DeleteStatus } from '../models/responseDelete-type';
 import { ArticleNamespace, ArticleStateType } from './articleActionTypes';
 import {
@@ -11,6 +11,7 @@ import {
 
 const initialState: ArticleStateType = {
   articles: [],
+  articleEdit: { author: '', content: '', title: '', id: '' },
   loading: false,
   error: '',
 };
@@ -18,7 +19,14 @@ const initialState: ArticleStateType = {
 export const articleSlice = createSlice({
   name: ArticleNamespace,
   initialState,
-  reducers: {},
+  reducers: {
+    addEditArticle(
+      state: ArticleStateType,
+      action: PayloadAction<ArticleEditType>
+    ) {
+      state.articleEdit = action.payload;
+    },
+  },
   extraReducers: (builder) => {
     builder.addCase(getAllArticle.pending, (state) => {
       state.loading = true;
