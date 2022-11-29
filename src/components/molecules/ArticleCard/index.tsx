@@ -15,7 +15,10 @@ const ArticleCard = ({ autor, title, content, urlImg }: Props) => (
     <div className="card-article__body">
       <h4 className="card-article__body-autor">By {autor}</h4>
       <Title classCss="card-article__body-title" type="h3">
-        <a className="card-article__body-title__link" href="#">
+        <a
+          className="card-article__body-title__link"
+          href="/articles/?id=52166731"
+        >
           {title}
         </a>
       </Title>
